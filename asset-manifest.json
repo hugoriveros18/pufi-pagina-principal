@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/pufi-pagina-principal/static/css/main.e639ff48.css",
+    "main.js": "/pufi-pagina-principal/static/js/main.7db90b1e.js",
+    "static/media/umbrella-middle-section.jpg": "/pufi-pagina-principal/static/media/umbrella-middle-section.bd45aeb806c0206def90.jpg",
+    "static/media/umbrella-insta.jpg": "/pufi-pagina-principal/static/media/umbrella-insta.a680fa670cec6e3d7185.jpg",
+    "static/media/sea-background.jpg": "/pufi-pagina-principal/static/media/sea-background.2f75affe345f370e228c.jpg",
+    "static/media/puff-middle-section.png": "/pufi-pagina-principal/static/media/puff-middle-section.07b6190ccb29ff5496f4.png",
+    "static/media/cart-middle-section.png": "/pufi-pagina-principal/static/media/cart-middle-section.beac090e6012ad6c808e.png",
+    "static/media/umbrella-main-background2.png": "/pufi-pagina-principal/static/media/umbrella-main-background2.c72311d3c8a71b18406f.png",
+    "static/media/pillow-middle-section.png": "/pufi-pagina-principal/static/media/pillow-middle-section.ac103cd14767185fc517.png",
+    "static/media/pillow-main-background.png": "/pufi-pagina-principal/static/media/pillow-main-background.56ecc6f28c1c48408b0a.png",
+    "static/media/puff-insta1.png": "/pufi-pagina-principal/static/media/puff-insta1.b6849edab967a2247233.png",
+    "static/media/cart-insta.png": "/pufi-pagina-principal/static/media/cart-insta.8bd53f0644b92b7ce339.png",
+    "static/media/puff-insta2.png": "/pufi-pagina-principal/static/media/puff-insta2.b0985c91fdbb9d1f0f8d.png",
+    "static/media/cart-figure.png": "/pufi-pagina-principal/static/media/cart-figure.588f1646fbda7dc5f1ed.png",
+    "static/media/escudo-seguridad.png": "/pufi-pagina-principal/static/media/escudo-seguridad.6a296e551d9c2a39efdb.png",
+    "static/media/brandlive.PNG": "/pufi-pagina-principal/static/media/brandlive.3e35e7144b7cbb9a143b.PNG",
+    "index.html": "/pufi-pagina-principal/index.html",
+    "static/media/expand-arrow.svg": "/pufi-pagina-principal/static/media/expand-arrow.2be989bebc92a7624b9492de38de2411.svg",
+    "static/media/full-right-arrow.svg": "/pufi-pagina-principal/static/media/full-right-arrow.fc0c6258fd8a751773241416421f9501.svg",
+    "static/media/right-arrow.svg": "/pufi-pagina-principal/static/media/right-arrow.b27c783b409fb1613644166bc694df53.svg",
+    "main.e639ff48.css.map": "/pufi-pagina-principal/static/css/main.e639ff48.css.map",
+    "main.7db90b1e.js.map": "/pufi-pagina-principal/static/js/main.7db90b1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e639ff48.css",
+    "static/js/main.7db90b1e.js"
+  ]
+}
