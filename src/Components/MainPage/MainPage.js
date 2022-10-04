@@ -61,7 +61,7 @@ function MainPage({moveToSection}) {
                 <p>ESTÁR CÓMODO, NUNCA FUE TAN FÁCIL.</p>
             </div>
             <div className="shop-button-container">
-                <button className="shop-button">
+                <button onClick={() => moveToSection("RAIN")} className="shop-button">
                     <p>SHOP</p>
                 </button>
             </div>
