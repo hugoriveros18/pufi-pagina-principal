@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pufi-pagina-principal/static/css/main.f40d7cd9.css",
-    "main.js": "/pufi-pagina-principal/static/js/main.7db90b1e.js",
+    "main.js": "/pufi-pagina-principal/static/js/main.16eaa50d.js",
     "static/media/umbrella-middle-section.jpg": "/pufi-pagina-principal/static/media/umbrella-middle-section.bd45aeb806c0206def90.jpg",
     "static/media/umbrella-insta.jpg": "/pufi-pagina-principal/static/media/umbrella-insta.a680fa670cec6e3d7185.jpg",
     "static/media/sea-background.jpg": "/pufi-pagina-principal/static/media/sea-background.2f75affe345f370e228c.jpg",
@@ -21,10 +21,10 @@
     "static/media/full-right-arrow.svg": "/pufi-pagina-principal/static/media/full-right-arrow.fc0c6258fd8a751773241416421f9501.svg",
     "static/media/right-arrow.svg": "/pufi-pagina-principal/static/media/right-arrow.b27c783b409fb1613644166bc694df53.svg",
     "main.f40d7cd9.css.map": "/pufi-pagina-principal/static/css/main.f40d7cd9.css.map",
-    "main.7db90b1e.js.map": "/pufi-pagina-principal/static/js/main.7db90b1e.js.map"
+    "main.16eaa50d.js.map": "/pufi-pagina-principal/static/js/main.16eaa50d.js.map"
   },
   "entrypoints": [
     "static/css/main.f40d7cd9.css",
-    "static/js/main.7db90b1e.js"
+    "static/js/main.16eaa50d.js"
   ]
 }
