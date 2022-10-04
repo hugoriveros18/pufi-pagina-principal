@@ -1,0 +1,178 @@
+.category-information-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+}
+.square-figure{
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -8px;
+    margin-top: -8px;
+    transform: rotate(45deg);
+}
+.category-information-reversed{
+    flex-direction: row-reverse;
+}
+.section-background-container{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.section-background{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: all .5s;  
+}
+.section-background:hover .shop-button-item{
+    display: block;
+}
+/* Background RAIN */
+.background-one{
+    background: url(../../Assets/umbrella-middle-section.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.background-one:hover{
+    transform: scale(1.2);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../Assets/umbrella-middle-section.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* Background PUFF */
+.background-two{
+    background: url(../../Assets/puff-middle-section.png);
+    background-position: center;
+    background-size: cover;
+}
+.background-two:hover{
+    transform: scale(1.2);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../Assets/puff-middle-section.png);
+    background-position: center;
+    background-size: cover;
+}
+/* Background Cart */
+.background-three{
+    background: url(../../Assets/cart-middle-section.png);
+    background-position: center;
+    background-size: cover;
+}
+.background-three:hover{
+    transform: scale(1.2);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../Assets/cart-middle-section.png);
+    background-position: center;
+    background-size: cover;
+}
+/* Background Cart */
+.background-four{
+    background: url(../../Assets/pillow-middle-section.png);
+    background-position: center;
+    background-size: cover;
+}
+.background-four:hover{
+    transform: scale(1.2);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../Assets/pillow-middle-section.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.section-item-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.item-information-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item-image,
+.item-title,
+.item-description,
+.show-more-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.item-title h3{
+    margin: 10px 0 0 0;
+    font-size: 1.8rem;
+}
+.separator-item{
+    width: 15%;
+    height: 1px;
+    margin: 22px 0;
+    background-color: #000000;
+}
+.item-description{
+    margin-bottom: 40px;
+}
+.item-description p{
+    width: 90%;
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.7px;
+    color: #000000;
+    opacity: 0.7;
+}
+.show-more-link{
+    gap: 3px;
+}
+.show-more-link:hover a{
+    border-bottom: solid 2px  #000000;
+    margin: -1px;
+    opacity: 1;
+}
+.show-more-link:hover img{
+    transform: scale(1.2);
+}
+.show-more-link img{
+    width: 15px;
+}
+.show-more-link a{
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #000000;
+    opacity: 0.7;
+}
+.shop-button-item{
+    display: none;
+    width: 110px;
+    height: 45px;
+    background: none;
+    border: solid 2px #FFFFFF;
+    cursor: pointer;
+}
+.shop-button-item P{
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    opacity: 0.85;
+}
+.shop-button-item:hover{
+    background-color: #FFFFFF;
+}
+.shop-button-item:hover p{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #000000;
+}

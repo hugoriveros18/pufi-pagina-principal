@@ -1,0 +1,203 @@
+.main-page-container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    padding: 28px 50px 15px;
+    background-position: center;
+    background-size: cover;
+}
+.first-background{
+    background-image: url(../../Assets/sea-background.jpg)
+}
+.second-background{
+    background-image: url(../../Assets/umbrella-main-background2.png)
+}
+.third-background{
+    background-image: url(../../Assets/pillow-main-background.png)
+}
+
+
+/* HEADER */
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.logo-container p{
+    margin: 0;
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.logo-container img{
+    width: 5px;
+    margin: 18px 0 0 3px;
+}
+.navbar-container{
+    margin: 0 0 0 96px;
+    padding: 0;
+}
+.navbar-list-container{
+    width: 100%;
+    height: 70px;
+    padding: 10px 0 0 0;
+    margin: 0;
+    display: flex;
+}
+.navbar-list-container div{
+    width: 1px;
+    height: 100%;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+}
+.navbar-element{
+    width: 120px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar-element h2{
+    font-size: 0.9rem;
+    margin: 8px 0 0 0;
+    color: #FFFFFF;
+}
+.navbar-element img{
+    width: 30px;
+}
+.pufi-puff:hover .pufi-puff-h2,
+.pufi-rain:hover .pufi-rain-h2,
+.pufi-cart:hover .pufi-cart-h2,
+.pufi-nap:hover .pufi-nap-h2{
+    border-bottom: solid 2px #FFFFFF;
+    margin-bottom: -2px;
+}
+.pufi-puff:hover .pufi-puff-img,
+.pufi-rain:hover .pufi-rain-img,
+.pufi-cart:hover .pufi-cart-img,
+.pufi-nap:hover .pufi-nap-img{
+    transform: scale(1.2);
+}
+
+.cuenta-info-container{
+    height: 30px;
+    display: flex;
+}
+.separator{
+    width: 1px;
+    height: 26px;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+}
+.mi-cuenta-info,
+.mi-cuenta-info-compra{
+    width: 92px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px 3px 5px 9px;
+    cursor: pointer;
+}
+.mi-cuenta-info p,
+.mi-cuenta-info-compra p{
+    margin: 1px 0 0 0;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+}
+.mi-cuenta-info img{
+    width: 20px;
+    height: 20px;
+}
+.mi-cuenta-info-compra:hover .mi-compra{
+    border-bottom: solid 2px #FFFFFF;
+    margin-bottom: -2px;
+}
+
+/* MIDDLE PAGE */
+.title-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.title-container p{
+    width: 570px;
+    font-size: 3.6rem;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 1px #8f92a7;
+    line-height: 56px;
+    letter-spacing: -4px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+}
+.shop-button-container{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.shop-button{
+    width: 110px;
+    height: 45px;
+    background: inherit;
+    border: solid 2px #FFFFFF;
+    cursor: pointer;
+}
+.shop-button P{
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    opacity: 0.85;
+}
+.shop-button:hover{
+    background-color: #FFFFFF;
+}
+.shop-button:hover p{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #000000;
+}
+.circle-buttons-container{
+    width: 100%;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.circle-button-selected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: none;
+}
+.circle-button-currently-selected{
+    outline: solid 3px #FFFFFF;
+}
+.circle-button-selected:hover {
+    outline: solid 3px #FFFFFF;
+} 
+.circle-button{
+    padding: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,33 @@
+.newsletter-form-container{
+    width: 100%;
+    display: flex;
+    border: solid 1px #000000;
+    margin: 20px 0;
+}
+.newsletter-form-container input{
+    width: 90%;
+    padding: 12px 15px;
+    font-size: 0.85rem;
+    border: none
+}
+.newsletter-form-container input:focus{
+    outline: none;
+}
+.newsletter-form-container button{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: inherit;
+    border: none;
+    cursor: pointer;
+}
+.newsletter-form-container button img{
+    width: 55%;
+}
+.mensaje-newsletter{
+    margin: 15px 0 0 0;
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 800;
+}
