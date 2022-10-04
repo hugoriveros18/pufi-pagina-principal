@@ -5,7 +5,7 @@ Creación de la pagina principal en la aplicacion web de la compañia Pufi, desa
 
 ## Links
 
-- Live Site URL: [Pufi web app](https://hugoriveros18.github.io/todo-app/)
+- Live Site URL: [Pufi web app](https://hugoriveros18.github.io/pufi-pagina-principal/)
 
 
 ## Autor
